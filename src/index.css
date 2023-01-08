@@ -10,3 +10,12 @@ body {
 :root {
   --primary-text-color: #fae8ff;
 }
+.container {
+  width: 1180px;
+  margin: auto;
+}
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
